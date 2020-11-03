@@ -17,13 +17,13 @@
     <div class="page1">
         <img src="tuzi.jpg" alt="兔子" style="opacity: 0;width: 0;height: 0;">
         <!--<h2 class="page1-tit" id="pageTitle"></h2>-->
-        <button id="reset" class="game-reset-btn" disabled>重新开始</button>
+        <button id="reset" class="game-reset-btn" disabled>重新開始</button>
         <div class="game-box">
             <div class="game-pop-box ui-center play" id="layer">
                 <div class="game-warp">
                     <div class="game-pop-hd">
-                        <h2>挑战失败！</h2>
-                        <p>再接再厉！</p>
+                        <h2>挑戰失敗！</h2>
+                        <p>再接再厲！</p>
                     </div>
                     <a href="javascript:;" class="game-start-btn play-btn" id="start">开始</a>
                 </div>
@@ -42,8 +42,8 @@
         </div>
         <span class="play-time" id="timing">?</span>
         <p class="pages">
-            第&nbsp;<strong id="level">?</strong>&nbsp;/&nbsp;<span id="levels">?</span> 关，
-            本关限时<span id="time">?</span>秒
+            第&nbsp;<strong id="level">?</strong>&nbsp;/&nbsp;<span id="levels">?</span> 關，
+            本關限時<span id="time">?</span>秒
         </p>
     </div>
     <canvas id="canvas" style="display: none" width="300" height="300"></canvas>
@@ -213,9 +213,9 @@
             },
             update: function() {
                 if (this.isComplete === false) {
-                    alert("时间到,游戏结束!");
+                    alert("時間到,遊戲結束!");
                     $('#layer').show();
-                    $('#start').html("再来一次");
+                    $('#start').html("再來一次");
                     $('#reset').prop('disabled', true);
                 }
             },
